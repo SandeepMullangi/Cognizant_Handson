@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Bootstrap Example</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<div class="container">
+		<h2>Feedback form</h2>
+		<form action="#" class="form-group" onsubmit="return false">
+			<div>
+				<label for="customerName">Customer Name:</label><br>
+				<input type="text" id="customerName"  placeholder="Enter your name" class="form-control">
+
+			</div>
+			<div>
+				<label for="mobileNumber">Mobile Number:</label><br>
+				<input type="text" id="mobileNumber" placeholder="Enter your mobile number" class="form-control">
+
+			</div>
+			<div>
+				<label for="email">Email:</label><br>
+				<input type="email" id="email" placeholder="Enter email" class="form-control">
+
+			</div>
+
+			<div class="form-group">
+			 
+			     <label class="form-check-label">Gender:</label>
+		
+			     <input type="radio" name="gender" id="male" class="form-check-input" value="male">
+			     <label for="gender" class="form-check-label">Male</label>
+		
+			 
+			     <input type="radio" name="gender" id="female" class="form-check-input" value="female">
+			     <label for="gender" class="form-check-label">Female</label>
+		
+		
+			</div>
+
+			
+			<div>
+				<label for="remarks">Remarks:</label><br>
+				<textarea cols="40" rows="6" id="remarks" class="form-control" placeholder="Enter your remarks"></textarea> 
+
+			</div>
+			<div>
+				<input type="checkbox" id="subscribe" class="form-check-input">
+
+
+				<label> Accept to subscribe for newsletters through email</label>
+			</div>
+
+			<div>
+				<input type="submit" class="btn btn-success btn-lg" id="submit" value="Submit">
+				
+			</div>
+		</form>
+	</div>
+
+</body>
+</html>
